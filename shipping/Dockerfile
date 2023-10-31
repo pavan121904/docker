@@ -1,5 +1,5 @@
 FROM openjdk:8-jdk-alpine AS build
-RUN apt-get update && apt-get -y install maven
+RUN apk update && apk add maven
 WORKDIR /opt/shipping
 COPY pom.xml /opt/shipping/
 RUN mvn dependency:resolve
