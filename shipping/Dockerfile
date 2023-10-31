@@ -1,4 +1,4 @@
-FROM openjdk:11-jre-slim AS build
+FROM openjdk:8-jdk-alpine AS build
 RUN apt-get update && apt-get -y install maven
 WORKDIR /opt/shipping
 COPY pom.xml /opt/shipping/
