@@ -1,6 +1,6 @@
 # Roboshop: Continuous Deployment Pipeline for a Hybrid Application
 
-![Alt Text] overview.drawio.png
+![Alt Text](overview.drawio.png)
 
 
 ## Overview
